@@ -1,3 +1,12 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Volutpat maecenas volutpat blandit aliquam etiam erat. Lorem mollis aliquam ut porttitor. Proin libero nunc consequat interdum varius sit amet mattis vulputate. Faucibus a pellentesque sit amet porttitor eget dolor. Scelerisque varius morbi enim nunc.
+ELIMIAR BLOB DE TRAKING
+- Copiar un .sh desde https://github.com/nachoparker/git-forget-blob/blob/master/git-forget-blob.sh  Referencia : https://github.com/nachoparker/git-forget-blob
+- Otorgar permisos de ejecución
+- Ejecutar SH ./git-forget-blob sc.16.tar.gz 
 
-Erat imperdiet sed euismod nisi porta. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Velit dignissim sodales ut eu sem integer vitae justo. 
+CAMBIAR COMENTARIOS DE COMMITS
+- Crear una rama a partir de master
+- Eliminar los 6 ùltimos commits
+- Cambiar el comentario del primer commit "git commit -m "feat(example): first commend"
+- Cambiar a la rama creada a partir de master
+- Rebasear contra master y ajustar "r"  a cada commit en interactive
+- Cambiar los nombres de archivos y guardar
